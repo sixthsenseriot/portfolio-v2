@@ -1,0 +1,87 @@
+@import "../index.css";
+
+/* Layout */
+.AboutPage .about-container {
+    padding-top: 60px;
+}
+
+.AboutPage .about-content {
+    max-width: 400px;
+    margin: 3rem;
+}
+
+/* Typography */
+.AboutPage h1 {
+    font-family: var(--grotesk-font);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.AboutPage .about-description {
+    font-size: 25px;
+}
+
+/* CTA button */
+.AboutPage .see-proj-btn {
+    border-radius: 4px;
+    padding: 15px 20px;
+    color: white;
+    background-color: var(--primary-black);
+    border: none;
+    font-family: var(--grotesk-font);
+    opacity: 0.8;
+}
+.AboutPage .see-proj-btn:hover {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    color: white;
+    transition: all 100ms ease-in-out;
+}
+
+/* Portrait + wobble */
+.AboutPage .pfp-about {
+    max-width: 300px;
+    margin-top: 64px;
+}
+
+.AboutPage .avatar-wobble {
+    border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    animation: about-wobble 8s ease-in-out alternate infinite;
+}
+
+@keyframes about-wobble {
+    50% {
+        border-radius: 750px 550px 350px 750px / 350px 750px 550px 450px;
+    }
+    100% {
+        border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .AboutPage .about-container {
+        padding-top: 80px;
+    }
+    .AboutPage .about-content {
+        text-align: center;
+        margin: 0;
+    }
+    .AboutPage h1 {
+        font-size: 38px;
+    }
+    .AboutPage .about-description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 280px) {
+    .AboutPage h1 {
+        font-size: 30px !important;
+    }
+    .AboutPage .about-container {
+        padding-top: 20px;
+    }
+    .AboutPage p {
+        font-size: 12px;
+    }
+}
