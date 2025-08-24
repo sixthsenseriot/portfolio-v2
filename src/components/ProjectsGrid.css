@@ -1,0 +1,26 @@
+@import "../index.css";
+
+/* Padding used by your .content-container group */
+.ProjectsGrid.content-container {
+    padding-top: 38px;
+}
+
+/* Heading style for this section */
+.ProjectsGrid .projects-header {
+    font-family: var(--grotesk-font);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* Card image & hover enhancement from your OG CSS */
+.ProjectsGrid .project-img {
+    box-shadow: var(--box-shadow);
+}
+
+.ProjectsGrid .enhance-img {
+    transition: transform 0.2s;
+}
+
+.ProjectsGrid .enhance-img:hover {
+    transform: scale(1.02);
+}

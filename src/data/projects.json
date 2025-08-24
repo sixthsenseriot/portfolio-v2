@@ -7,7 +7,8 @@
         "imageAlt": "Sea Monster Crowdfunding page",
         "imageTitle": "Sea Monster Crowdfunding",
         "codeUrl": "https://github.com/sixthsenseriot/web102_prework",
-        "demoUrl": "https://seamonster.netlify.app/"
+        "demoUrl": "https://seamonster.netlify.app/",
+        "builtWith": "Built with HTML, CSS, and JavaScript"
     },
     {
         "title": "CrewTube",
@@ -17,7 +18,8 @@
         "imageAlt": "YouTube clone",
         "imageTitle": "CrewTube",
         "codeUrl": "https://github.com/sixthsenseriot/crewtube",
-        "demoUrl": "https://crewtube.netlify.app/"
+        "demoUrl": "https://crewtube.netlify.app/",
+        "builtWith": "Built with React and MaterialUI"
     },
     {
         "title": "TRVL",
@@ -27,7 +29,8 @@
         "imageAlt": "Travel page",
         "imageTitle": "TRVL",
         "codeUrl": "https://github.com/sixthsenseriot/react-travel-page",
-        "demoUrl": "https://react-trvl-page.netlify.app/"
+        "demoUrl": "https://react-trvl-page.netlify.app/",
+        "builtWith": "Built with React"
     },
     {
         "title": "CP2077 Weather App",
@@ -37,6 +40,7 @@
         "imageAlt": "Cyber weather app",
         "imageTitle": "Cyber Weather",
         "codeUrl": "https://github.com/sixthsenseriot/react-cyber-weather",
-        "demoUrl": "https://react-cyberweather.netlify.app/"
+        "demoUrl": "https://react-cyberweather.netlify.app/",
+        "builtWith": "Built with React and Bootstrap"
     }
 ]
