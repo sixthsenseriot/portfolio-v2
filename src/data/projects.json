@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Sea Monster",
+        "description": "A website for the company Sea Monster Crowdfunding that displays information about the games that they have funded.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "image": "/images/sea-monster.png",
+        "imageAlt": "Sea Monster Crowdfunding page",
+        "imageTitle": "Sea Monster Crowdfunding",
+        "codeUrl": "https://github.com/sixthsenseriot/web102_prework",
+        "demoUrl": "https://seamonster.netlify.app/"
+    },
+    {
+        "title": "CrewTube",
+        "description": "A YouTube clone made with React and MaterialUI. The web application pulls data from RapidAPI's YouTube API to display videos correlating to any category of entertainment or anything the user searches.",
+        "stack": ["REACT"],
+        "image": "/images/crewtube.png",
+        "imageAlt": "YouTube clone",
+        "imageTitle": "CrewTube",
+        "codeUrl": "https://github.com/sixthsenseriot/crewtube",
+        "demoUrl": "https://crewtube.netlify.app/"
+    },
+    {
+        "title": "TRVL",
+        "description": "A front-end focused travel page made with React. The site features multiple tabs showcasing the various products and services provided by TRVL.",
+        "stack": ["REACT"],
+        "image": "/images/trvl.png",
+        "imageAlt": "Travel page",
+        "imageTitle": "TRVL",
+        "codeUrl": "https://github.com/sixthsenseriot/react-travel-page",
+        "demoUrl": "https://react-trvl-page.netlify.app/"
+    },
+    {
+        "title": "CP2077 Weather App",
+        "description": "A Cyberpunk 2077-themed weather app built with React and Bootstrap. It uses OpenWeather API to tell users the forecast in any searched city.",
+        "stack": ["REACT"],
+        "image": "/images/react-cyberweather.png",
+        "imageAlt": "Cyber weather app",
+        "imageTitle": "Cyber Weather",
+        "codeUrl": "https://github.com/sixthsenseriot/react-cyber-weather",
+        "demoUrl": "https://react-cyberweather.netlify.app/"
+    }
+]

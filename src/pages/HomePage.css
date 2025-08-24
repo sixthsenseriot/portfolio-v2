@@ -1,0 +1,121 @@
+/* src/pages/HomePage.css */
+@import "../index.css";
+
+/* Layout */
+.HomePage .intro-container {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.HomePage .intro-content {
+    max-width: 400px;
+}
+
+/* Type */
+.HomePage h1 {
+    font-family: var(--grotesk-font);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.HomePage .intro-description {
+    font-size: 25px;
+}
+
+/* Social links */
+.HomePage a.in-link {
+    color: var(--primary-black);
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.HomePage a.in-link:hover {
+    color: var(--light-blue);
+}
+
+/* Skills row */
+.HomePage .skillset-container {
+    font-size: 20px;
+}
+
+.HomePage .dev-logo {
+    margin: 0 15px 0 0;
+    font-size: 22px;
+}
+
+/* Brand colors for Font Awesome icons used here */
+.HomePage .fa-html5 {
+    color: #e44d25;
+}
+.HomePage .fa-css3-alt {
+    color: #016bc1;
+}
+.HomePage .fa-square-js {
+    color: #e4a125;
+}
+.HomePage .fa-react {
+    color: #61dbfb;
+}
+.HomePage .fa-database {
+    color: #396c94;
+}
+.HomePage .fa-bootstrap {
+    color: #8f1aff;
+}
+.HomePage .fa-python {
+    color: #0277bd;
+}
+
+/* Avatar image + wobble */
+.HomePage .pfp {
+    max-width: 300px;
+}
+
+.HomePage .avatar-wobble {
+    border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    animation: wobble 8s ease-in-out alternate infinite;
+}
+
+@keyframes wobble {
+    50% {
+        border-radius: 750px 550px 350px 750px / 350px 750px 550px 450px;
+    }
+    100% {
+        border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
+    }
+}
+
+/* Responsive tweaks just for this section */
+@media (max-width: 767px) {
+    .HomePage .intro-container {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+    .HomePage h1 {
+        font-size: 38px;
+    }
+    .HomePage .intro-description {
+        font-size: 20px;
+    }
+    .HomePage .intro-content {
+        text-align: center;
+    }
+    .HomePage a.in-link {
+        margin: 0 5px;
+    }
+    .HomePage .skillset-container {
+        font-size: 18px;
+    }
+    .HomePage .dev-logo {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 280px) {
+    .HomePage h1 {
+        font-size: 30px !important;
+    }
+    .HomePage .intro-container {
+        padding-top: 0;
+    }
+}
