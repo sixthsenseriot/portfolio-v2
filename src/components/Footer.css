@@ -1,0 +1,53 @@
+@import "../index.css";
+
+/* Footer wrapper */
+.Footer footer {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+/* Contact box */
+.Footer .contact-box {
+    background-color: var(--off-white);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+.Footer .contact-box p {
+    margin: 0;
+}
+
+/* Contact button */
+.Footer .contact-btn {
+    border-radius: 4px;
+    padding: 15px 20px;
+    color: white;
+    background-color: var(--primary-black);
+    border: none;
+    font-family: var(--grotesk-font);
+    opacity: 0.8;
+}
+.Footer .contact-btn:hover {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    color: white;
+    transition: all 100ms ease-in-out;
+}
+
+/* Email link */
+.Footer .email-link {
+    margin: 40px 0;
+    color: var(--primary-black);
+    font-size: 25px;
+}
+.Footer .email-link:hover {
+    color: var(--light-blue);
+}
+
+/* Social icons */
+.Footer .social {
+    color: var(--primary-black);
+    background-color: var(--off-white);
+    font-size: 25px;
+    padding: 8px 14px;
+    border-radius: 50%;
+}
