@@ -1,6 +1,7 @@
 import TopNavbar from "../components/TopNavbar";
 
 import "./HomePage.css";
+import ProjectsPreview from "../components/ProjectsPreview";
 
 const HomePage = () => {
     return (
@@ -93,6 +94,7 @@ const HomePage = () => {
                     </a>
                 </div>
             </div>
+            <ProjectsPreview />
         </div>
     );
 };
