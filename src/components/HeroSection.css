@@ -25,7 +25,7 @@
 .HeroSection a.in-link {
     color: var(--primary-black);
     font-size: 25px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .HeroSection a.in-link:hover {
     color: var(--light-blue);
@@ -40,7 +40,7 @@
     font-size: 22px;
 }
 
-/* Brand colors used here */
+/* Brand colors */
 .HeroSection .fa-html5 {
     color: #e44d25;
 }
@@ -97,7 +97,7 @@
         text-align: center;
     }
     .HeroSection a.in-link {
-        margin: 0 5px;
+        margin: 0 10px;
     }
     .HeroSection .skillset-container {
         font-size: 18px;

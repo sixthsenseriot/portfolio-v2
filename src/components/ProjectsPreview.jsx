@@ -22,7 +22,9 @@ const ProjectsPreview = () => {
                             <h2 className="text-center mb-3">
                                 {project.title}
                             </h2>
-                            <p className="text-center">{project.description}</p>
+                            <p className="text-center project-description">
+                                {project.description}
+                            </p>
 
                             <p className="text-center">
                                 {project.stack.map((tech) => (
@@ -41,9 +43,9 @@ const ProjectsPreview = () => {
                                     target="_blank"
                                     rel="noreferrer"
                                     title="Github repository link"
-                                    className="project-link mr-3"
+                                    className="project-link me-3"
                                 >
-                                    <i className="fa-brands fa-github mr-2" />
+                                    <i className="fa-brands fa-github me-2" />
                                     Code
                                 </a>
                                 <a
@@ -53,7 +55,7 @@ const ProjectsPreview = () => {
                                     title="Live demo link"
                                     className="project-link"
                                 >
-                                    <i className="fa-solid fa-arrow-up-right-from-square mr-2" />
+                                    <i className="fa-solid fa-arrow-up-right-from-square me-2" />
                                     Live Demo
                                 </a>
                             </p>

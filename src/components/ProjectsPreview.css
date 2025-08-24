@@ -1,24 +1,28 @@
 @import "../index.css";
 
-/* Optional: match your headings' font */
 .ProjectsPreview h2 {
     font-family: var(--grotesk-font);
     font-weight: 600;
 }
 
-/* From your original */
+.ProjectsPreview .project-description {
+    font-size: 1.2em;
+}
+
 .ProjectsPreview .project-img {
     box-shadow: var(--box-shadow);
 }
 
 .ProjectsPreview .project-link {
     color: var(--primary-black);
+    text-decoration: none;
 }
-
 .ProjectsPreview .project-link:hover {
     color: var(--light-blue);
+    text-decoration: underline;
 }
 
 .ProjectsPreview .stack-used {
     margin: 0 14px;
+    font-weight: bold;
 }

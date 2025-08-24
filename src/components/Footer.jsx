@@ -27,7 +27,7 @@ const Footer = () => {
                 </div>
 
                 <div className="social-links text-center d-flex justify-content-center">
-                    <div className="mr-3">
+                    <div className="me-3">
                         <a
                             href="https://www.linkedin.com/in/khanh-dev/"
                             target="_blank"
@@ -38,7 +38,7 @@ const Footer = () => {
                             <i className="fa-brands fa-linkedin" />
                         </a>
                     </div>
-                    <div className="ml-3">
+                    <div className="ms-3">
                         <a
                             href="https://github.com/sixthsenseriot"
                             target="_blank"

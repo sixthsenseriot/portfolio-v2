@@ -9,14 +9,12 @@ const AboutPage = () => {
                     <p className="about-description">
                         Developer based in Houston, Texas
                     </p>
-                    <p className="mb-4">
+                    <p className="mb-4 about-summary">
                         Hi, I'm Khanh — a passionate developer specializing in
                         full-stack web development, embedded systems, IT, and
                         robotics. I'm currently studying Computer Science at the
                         University of Houston. I love building practical tools
-                        that make a difference, and in my free time, I enjoy
-                        programming, creating digital art, reading, and
-                        tinkering with vintage technology.
+                        that make a difference and improve people's lives.
                     </p>
                     <a
                         href="/projects"

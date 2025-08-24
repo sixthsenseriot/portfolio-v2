@@ -38,9 +38,11 @@
     margin: 40px 0;
     color: var(--primary-black);
     font-size: 25px;
+    text-decoration: none;
 }
 .Footer .email-link:hover {
     color: var(--light-blue);
+    text-decoration: underline;
 }
 
 /* Social icons */
@@ -50,4 +52,16 @@
     font-size: 25px;
     padding: 8px 14px;
     border-radius: 50%;
+}
+.Footer .social:hover {
+    color: var(--light-blue);
+}
+
+@media (max-width: 767px) {
+    .contact-box {
+        display: none !important;
+    }
+    .email-link {
+        font-size: 20px !important;
+    }
 }
