@@ -1,0 +1,32 @@
+@import "../index.css";
+
+/* Section padding from your original `.resume-container` group */
+.ResumePage .resume-container {
+    padding-top: 38px;
+}
+
+/* Header style from your original `.projects-header` */
+.ResumePage .projects-header {
+    font-family: var(--grotesk-font);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* Image sizing from your original `.resume-img` */
+.ResumePage .resume-img {
+    max-width: 100%;
+    width: 850px;
+}
+
+/* Box shadow from `.project-img` */
+.ResumePage .project-img {
+    box-shadow: var(--box-shadow);
+}
+
+/* Hover grow from `.enhance-img` */
+.ResumePage .enhance-img {
+    transition: transform 0.2s;
+}
+.ResumePage .enhance-img:hover {
+    transform: scale(1.02);
+}
