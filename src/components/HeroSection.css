@@ -39,6 +39,9 @@
     margin: 0 15px 0 0;
     font-size: 22px;
 }
+.HeroSection .cpp-svg {
+    max-width: 22px;
+}
 
 /* Brand colors */
 .HeroSection .fa-html5 {

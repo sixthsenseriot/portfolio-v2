@@ -43,7 +43,16 @@ const HeroSection = () => {
                 </div>
                 <div className="skillset-container">
                     <p>Skills:</p>
-                    <span className="align-items-center">
+                    <span className="d-flex align-items-center">
+                        <img
+                            className="dev-logo cpp-svg"
+                            src="/icons/cpp-logo.svg"
+                            title="CPP"
+                        />
+                        <i
+                            className="dev-logo fa-brands fa-react rotate"
+                            title="React"
+                        ></i>
                         <i
                             className="dev-logo fa-brands fa-html5"
                             title="HTML"
@@ -55,10 +64,6 @@ const HeroSection = () => {
                         <i
                             className="dev-logo fa-brands fa-square-js"
                             title="JavaScript"
-                        ></i>
-                        <i
-                            className="dev-logo fa-brands fa-react rotate"
-                            title="React"
                         ></i>
                         <i
                             className="dev-logo fa-solid fa-database"
