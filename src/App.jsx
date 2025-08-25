@@ -8,6 +8,7 @@ import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResumePage from "./pages/ResumePage";
 import ContactPage from "./pages/ContactPage";
+import ProjectDetail from "./components/ProjectDetail";
 
 const App = () => {
     return (
@@ -20,6 +21,10 @@ const App = () => {
                         <Route path="/projects" element={<ProjectsPage />} />
                         <Route path="/resume" element={<ResumePage />} />
                         <Route path="/contact" element={<ContactPage />} />
+                        <Route
+                            path="/projects/:slug"
+                            element={<ProjectDetail />}
+                        />
                     </Route>
                 </Routes>
             </Router>
