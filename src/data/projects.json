@@ -23,17 +23,6 @@
         "modelUrl": "/models/tattler-model.glb"
     },
     {
-        "title": "Sea Monster",
-        "description": "A website for the company Sea Monster Crowdfunding that displays information about the games that they have funded.",
-        "stack": ["HTML", "CSS", "JavaScript"],
-        "image": "/images/sea-monster.png",
-        "imageAlt": "Sea Monster Crowdfunding image",
-        "imageTitle": "Sea Monster Crowdfunding",
-        "codeUrl": "https://github.com/sixthsenseriot/web102_prework",
-        "demoUrl": "https://seamonster.netlify.app/",
-        "builtWith": "Built with HTML, CSS, and JavaScript"
-    },
-    {
         "title": "CrewTube",
         "description": "A YouTube clone made with React and MaterialUI. The web application pulls data from RapidAPI's YouTube API to display videos correlating to any category of entertainment or anything the user searches.",
         "stack": ["REACT"],
@@ -44,6 +33,40 @@
         "demoUrl": "https://crewtube.netlify.app/",
         "builtWith": "Built with React and MaterialUI"
     },
+    {
+        "title": "Yommers",
+        "description": "Yommers is a recipe search app with ingredients, step-by-step instructions, and full nutrition facts. Filter by cuisine, diet, or calorie goals and use simple charts to see macros before you cook.",
+        "stack": ["REACT", "Vite"],
+        "image": "/images/yommers.png",
+        "imageAlt": "Yommers recipe app image",
+        "imageTitle": "Yommers",
+        "codeUrl": "https://github.com/sixthsenseriot/project-06-data-dashboard",
+        "demoUrl": "https://yommers.netlify.app/",
+        "builtWith": "Built with React + Vite"
+    },
+    {
+        "title": "Pokémon Shuffler",
+        "description": "Web app that I made for fun through CodePath's WEB102 course. Pokémon Shuffler is a StumbleUpon-inspired application that let's you randomly shuffle through different pokémon.",
+        "stack": ["REACT", "Vite"],
+        "image": "/images/pokemon-shuffler.png",
+        "imageAlt": "Pokémon Shuffler image",
+        "imageTitle": "Pokémon Shuffler",
+        "codeUrl": "https://github.com/sixthsenseriot/project-04-veni-vici",
+        "demoUrl": "https://pokemon-shuffler.netlify.app/",
+        "builtWith": "Built with React + Vite"
+    },
+    {
+        "title": "Sea Monster",
+        "description": "A website for the company Sea Monster Crowdfunding that displays information about the games that they have funded.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "image": "/images/sea-monster.png",
+        "imageAlt": "Sea Monster Crowdfunding image",
+        "imageTitle": "Sea Monster Crowdfunding",
+        "codeUrl": "https://github.com/sixthsenseriot/web102_prework",
+        "demoUrl": "https://seamonster.netlify.app/",
+        "builtWith": "Built with HTML, CSS, and JavaScript"
+    },
+
     {
         "title": "TRVL",
         "description": "A front-end focused travel page made with React. The site features multiple tabs showcasing the various products and services provided by TRVL.",
@@ -65,5 +88,16 @@
         "codeUrl": "https://github.com/sixthsenseriot/react-cyber-weather",
         "demoUrl": "https://react-cyberweather.netlify.app/",
         "builtWith": "Built with React and Bootstrap"
+    },
+    {
+        "title": "Password Generator",
+        "description": "Simple application that generates passwords.",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "image": "/images/password-generator.png",
+        "imageAlt": "Password Generator app iamge",
+        "imageTitle": "Password Generator",
+        "codeUrl": "https://github.com/sixthsenseriot/dashlane-generator-clone",
+        "demoUrl": "https://password-generator-kn.netlify.app/",
+        "builtWith": "Built with HTML, CSS, and JavaScript"
     }
 ]
