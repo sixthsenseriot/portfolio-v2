@@ -60,6 +60,7 @@
         "codeUrl": "https://github.com/sixthsenseriot/tattler-pendant-code",
         "builtWith": "Programmed with C++ and static HTML, CSS, and JavaScript",
         "modelUrl": "/models/tattler-model.glb",
+        "modelUrlTwo": "",
         "onshapeUrl": "https://cad.onshape.com/documents/0ef3759345484f33e9207c95/w/746f2fb4ce64cb077c49f415/e/1be9737a5b9aeb75e15eeaa6?renderMode=0&uiState=68ac13b994d6183e88e73cd4",
         "features": [
             {

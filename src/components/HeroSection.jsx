@@ -80,7 +80,7 @@ const HeroSection = () => {
                 </div>
             </div>
             <div className="intro-picture">
-                <a href="/about.html" title="Go to About Page">
+                <a href="/about" title="Go to About Page">
                     <img
                         src="/images/pfp-pro.jpg"
                         alt="Khanh Nguyen's picture"

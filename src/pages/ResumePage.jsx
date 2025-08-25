@@ -7,7 +7,7 @@ const ResumePage = () => {
                 <h1 className="projects-header text-center mb-4">My Resume</h1>
 
                 <a
-                    href="https://drive.google.com/file/d/1Mw48nQyFytvXTf44TT7EBKMdFaUORNch/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1QFj-b20hmTRMaqFL-Qe6QL92ZV_lrhht/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
                     title="Khanh Nguyen's Resume"
