@@ -1,0 +1,7 @@
+.ModelViewer {
+    width: 100%;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}

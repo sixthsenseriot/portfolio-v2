@@ -2,26 +2,25 @@
     {
         "title": "MedBedBot",
         "slug": "medbedbot",
-        "description": "A device developed under my NT Corin contract role to help pet owners potty train their dogs.",
+        "description": "Built under OmniTek Solutions, LLC. MedBedBot is a four-motor mecanum robot using an ESP32 captive portal for real-time smartphone control. It provides powered assistance to help nurses move heavy hospital beds.",
         "stack": ["C++", "HTML", "CSS", "JavaScript"],
         "image": "/images/medbedbot-model.png",
         "imageAlt": "MedBedBot image",
         "imageTitle": "MedBedBot",
-        "codeUrl": "/projects/medbedbot",
-        "demoUrl": "https://seamonster.netlify.app/",
-        "builtWith": "Built with C++ and static HTML, CSS, and JavaScript"
+        "builtWith": "Built with C++ and static HTML, CSS, and JavaScript",
+        "modelUrl": "/models/medbedbot-model.glb"
     },
     {
         "title": "Tattler",
         "slug": "tattler",
-        "description": "A device developed under my NT Corin contract role to help pet owners potty train their dogs.",
+        "description": "Developed under my contract role at NT Corin. The Tatter is a sensor-based device that detects moisture and immediately sends SMS alerts to help dog owners reinforce potty training in real time.",
         "stack": ["C++", "HTML", "CSS", "JavaScript"],
         "image": "/images/tattler-model.png",
         "imageAlt": "Tattler image",
         "imageTitle": "Tattler",
         "codeUrl": "https://github.com/sixthsenseriot/tattler-pendant-code",
-        "demoUrl": "https://seamonster.netlify.app/",
-        "builtWith": "Built with C++ and static HTML, CSS, and JavaScript"
+        "builtWith": "Built with C++ and static HTML, CSS, and JavaScript",
+        "modelUrl": "/models/tattler-model.glb"
     },
     {
         "title": "Sea Monster",
