@@ -43,7 +43,7 @@ const HeroSection = () => {
                 </div>
                 <div className="skillset-container">
                     <p>Skills:</p>
-                    <span className="d-flex align-items-center">
+                    <span className="d-flex align-items-center logo-span">
                         <img
                             className="dev-logo cpp-svg"
                             src="/icons/cpp-logo.svg"

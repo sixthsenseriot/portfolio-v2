@@ -105,6 +105,10 @@
     .HeroSection .skillset-container {
         font-size: 18px;
     }
+    .HeroSection .logo-span {
+        display: flex;
+        justify-content: center;
+    }
     .HeroSection .dev-logo {
         margin: 0 5px;
     }
