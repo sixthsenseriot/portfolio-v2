@@ -9,6 +9,7 @@
         "imageTitle": "MedBedBot",
         "builtWith": "Programmed with C++ and static HTML, CSS, and JavaScript",
         "modelUrl": "/models/medbedbot-model.glb",
+        "onshapeUrl": "https://cad.onshape.com/documents/374e7f492f56ae1afc0368e3/w/1cb78f0a1671813c89602085/e/a981fe32621a2a00b8c42402?renderMode=0&uiState=68ac11eef660a850d7cf322b",
         "features": [
             {
                 "title": "Mecanum Wheel Support",
@@ -27,7 +28,7 @@
                 "detail": "The HUZZAH32 acts as an access point and controller — no internet required."
             },
             {
-                "title": "LED Status Indicators",
+                "title": "LED Status Indicators:",
                 "bullets": [
                     {
                         "icon": "🟢",
@@ -58,7 +59,8 @@
         "imageTitle": "Tattler",
         "codeUrl": "https://github.com/sixthsenseriot/tattler-pendant-code",
         "builtWith": "Programmed with C++ and static HTML, CSS, and JavaScript",
-        "modelUrl": "/models/tattler-model.glb"
+        "modelUrl": "/models/tattler-model.glb",
+        "onshapeUrl": "https://cad.onshape.com/documents/0ef3759345484f33e9207c95/w/746f2fb4ce64cb077c49f415/e/1be9737a5b9aeb75e15eeaa6?renderMode=0&uiState=68ac13b994d6183e88e73cd4"
     },
     {
         "title": "CrewTube",

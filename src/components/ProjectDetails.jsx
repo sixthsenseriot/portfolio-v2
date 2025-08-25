@@ -44,9 +44,16 @@ const ProjectDetails = () => {
                         <>
                             <ModelViewer url={project.modelUrl} height={420} />
                             <div className="d-flex justify-content-center align-items-center mt-5">
-                                <button className="onshape-link-btn">
-                                    View Onshape Model
-                                </button>
+                                <a
+                                    href={project.onshapeUrl}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    title="Onshape link"
+                                >
+                                    <button className="onshape-link-btn">
+                                        View Onshape Model
+                                    </button>
+                                </a>
                             </div>
                         </>
                     ) : (
