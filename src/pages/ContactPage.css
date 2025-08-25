@@ -1,5 +1,12 @@
 @import "../index.css";
 
+.ContactPage .projects-header,
+.ContactPage .contact-container,
+.ContactPage .card {
+    position: relative;
+    z-index: 2;
+}
+
 /* Container padding */
 .ContactPage .contact-container {
     padding-top: 38px;
@@ -27,6 +34,7 @@
 .ContactPage .card {
     position: relative;
     padding: 10px;
+    background: white;
 }
 
 .card {

@@ -1,8 +1,10 @@
 import "./ContactPage.css";
+import FloatingEmojis from "../components/FloatingEmojis";
 
 const ContactPage = () => {
     return (
-        <section className="ContactPage">
+        <section className="ContactPage position-relative">
+            <FloatingEmojis />
             <div className="contact-container mt-5">
                 <h1 className="projects-header text-center mb-5">
                     Let's get in touch!
