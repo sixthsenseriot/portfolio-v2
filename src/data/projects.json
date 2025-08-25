@@ -60,7 +60,33 @@
         "codeUrl": "https://github.com/sixthsenseriot/tattler-pendant-code",
         "builtWith": "Programmed with C++ and static HTML, CSS, and JavaScript",
         "modelUrl": "/models/tattler-model.glb",
-        "onshapeUrl": "https://cad.onshape.com/documents/0ef3759345484f33e9207c95/w/746f2fb4ce64cb077c49f415/e/1be9737a5b9aeb75e15eeaa6?renderMode=0&uiState=68ac13b994d6183e88e73cd4"
+        "onshapeUrl": "https://cad.onshape.com/documents/0ef3759345484f33e9207c95/w/746f2fb4ce64cb077c49f415/e/1be9737a5b9aeb75e15eeaa6?renderMode=0&uiState=68ac13b994d6183e88e73cd4",
+        "features": [
+            {
+                "title": "ESP32 IoT Core",
+                "detail": "C++ firmware with a captive portal for local onboarding and authentication."
+            },
+            {
+                "title": "Moisture Sensing",
+                "detail": "Detects potty events reliably for timely training feedback."
+            },
+            {
+                "title": "Real-time SMS Alerts",
+                "detail": "Sends instant notifications to the owner when moisture is detected."
+            },
+            {
+                "title": "Product Website",
+                "detail": "Raw HTML/JavaScript frontend with a Node.js backend and MySQL for user account creation and management."
+            },
+            {
+                "title": "Cloud Hosting",
+                "detail": "Product website is hosted on DigitalOcean for reliable remote access."
+            },
+            {
+                "title": "Enclosure & Assembly",
+                "detail": "Onshape-designed enclosure; precision soldering integrates sensors, communication modules, and the microcontroller into a working MVP."
+            }
+        ]
     },
     {
         "title": "CrewTube",
