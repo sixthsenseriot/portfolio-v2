@@ -15,7 +15,7 @@ const ContactPage = () => {
                             <h5 className="card-subtitle mb-2">
                                 Developer & Current Student at UH
                             </h5>
-                            <p className="card-text">Houston, Texas</p>
+                            <p className="card-text mb-0">Houston, Texas</p>
 
                             <div className="contact-container d-flex">
                                 <div className="contact-icons text-center">

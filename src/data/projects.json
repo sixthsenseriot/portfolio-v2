@@ -92,7 +92,7 @@
     {
         "title": "CrewTube",
         "description": "A YouTube clone made with React and MaterialUI. The web application pulls data from RapidAPI's YouTube API to display videos correlating to any category of entertainment or anything the user searches.",
-        "stack": ["REACT"],
+        "stack": ["React"],
         "image": "/images/crewtube.png",
         "imageAlt": "YouTube Clone image",
         "imageTitle": "CrewTube",
@@ -103,7 +103,7 @@
     {
         "title": "Yommers",
         "description": "Yommers is a recipe search app with ingredients, step-by-step instructions, and full nutrition facts. Filter by cuisine, diet, or calorie goals and use simple charts to see macros before you cook.",
-        "stack": ["REACT", "Vite"],
+        "stack": ["React", "Vite"],
         "image": "/images/yommers.png",
         "imageAlt": "Yommers recipe app image",
         "imageTitle": "Yommers",
@@ -114,7 +114,7 @@
     {
         "title": "Pokémon Shuffler",
         "description": "Web app that I made for fun through CodePath's WEB102 course. Pokémon Shuffler is a StumbleUpon-inspired application that let's you randomly shuffle through different pokémon.",
-        "stack": ["REACT", "Vite"],
+        "stack": ["React", "Vite"],
         "image": "/images/pokemon-shuffler.png",
         "imageAlt": "Pokémon Shuffler image",
         "imageTitle": "Pokémon Shuffler",
@@ -137,7 +137,7 @@
     {
         "title": "TRVL",
         "description": "A front-end focused travel page made with React. The site features multiple tabs showcasing the various products and services provided by TRVL.",
-        "stack": ["REACT"],
+        "stack": ["React"],
         "image": "/images/trvl.png",
         "imageAlt": "Travel image",
         "imageTitle": "TRVL",
@@ -148,7 +148,7 @@
     {
         "title": "CP2077 Weather App",
         "description": "A Cyberpunk 2077-themed weather app built with React and Bootstrap. It uses OpenWeather API to tell users the forecast in any searched city.",
-        "stack": ["REACT"],
+        "stack": ["React"],
         "image": "/images/react-cyberweather.png",
         "imageAlt": "CP2077 Weather App iamge",
         "imageTitle": "CP2077 Weather App",

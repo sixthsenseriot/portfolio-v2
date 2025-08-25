@@ -30,3 +30,9 @@
 .ResumePage .enhance-img:hover {
     transform: scale(1.02);
 }
+
+@media (max-width: 767px) {
+    .ResumePage .projects-header {
+        font-size: 2rem;
+    }
+}
