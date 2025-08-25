@@ -1,0 +1,30 @@
+@import "../index.css";
+
+.ProjectDetails .back-button {
+    color: var(--primary-black);
+    background-color: var(--off-white);
+    text-decoration: none;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+.ProjectDetails .back-button:hover {
+    color: var(--light-blue);
+    text-decoration: underline;
+}
+
+.ProjectDetails .onshape-link-btn {
+    border-radius: 4px;
+    padding: 15px 20px;
+    color: white;
+    background-color: var(--primary-black);
+    border: none;
+    font-family: var(--grotesk-font);
+    opacity: 0.8;
+}
+.ProjectDetails .onshape-link-btn:hover {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    color: white;
+    transition: all 100ms ease-in-out;
+}

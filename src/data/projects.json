@@ -7,8 +7,46 @@
         "image": "/images/medbedbot-model.png",
         "imageAlt": "MedBedBot image",
         "imageTitle": "MedBedBot",
-        "builtWith": "Built with C++ and static HTML, CSS, and JavaScript",
-        "modelUrl": "/models/medbedbot-model.glb"
+        "builtWith": "Programmed with C++ and static HTML, CSS, and JavaScript",
+        "modelUrl": "/models/medbedbot-model.glb",
+        "features": [
+            {
+                "title": "Mecanum Wheel Support",
+                "detail": "Full directional movement using four brushed DC gear motors."
+            },
+            {
+                "title": "Embedded Web Server",
+                "detail": "Hosts a captive portal accessible by smartphone."
+            },
+            {
+                "title": "Responsive UI",
+                "detail": "Built with HTML and JavaScript for real-time motor control."
+            },
+            {
+                "title": "Standalone Operation",
+                "detail": "The HUZZAH32 acts as an access point and controller — no internet required."
+            },
+            {
+                "title": "LED Status Indicators",
+                "bullets": [
+                    {
+                        "icon": "🟢",
+                        "label": "Green",
+                        "detail": "Idle and operational"
+                    },
+                    {
+                        "icon": "🟡",
+                        "label": "Yellow (flashing)",
+                        "detail": "Robot is currently moving"
+                    },
+                    {
+                        "icon": "🔴",
+                        "label": "Red",
+                        "detail": "Critical condition detected (e.g. fault or emergency state)"
+                    }
+                ]
+            }
+        ]
     },
     {
         "title": "Tattler",
@@ -19,7 +57,7 @@
         "imageAlt": "Tattler image",
         "imageTitle": "Tattler",
         "codeUrl": "https://github.com/sixthsenseriot/tattler-pendant-code",
-        "builtWith": "Built with C++ and static HTML, CSS, and JavaScript",
+        "builtWith": "Programmed with C++ and static HTML, CSS, and JavaScript",
         "modelUrl": "/models/tattler-model.glb"
     },
     {

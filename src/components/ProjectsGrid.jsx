@@ -21,7 +21,7 @@ const ProjectsGrid = () => {
 
                 <div className="container">
                     {rows.map((row, idx) => (
-                        <div className="row mb-4" key={idx}>
+                        <div className="row gx-0 mb-4" key={idx}>
                             {row.map((p) => (
                                 <ProjectCard key={p.title} project={p} />
                             ))}

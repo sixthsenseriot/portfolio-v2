@@ -8,7 +8,7 @@ import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResumePage from "./pages/ResumePage";
 import ContactPage from "./pages/ContactPage";
-import ProjectDetail from "./components/ProjectDetail";
+import ProjectDetails from "./components/ProjectDetails";
 
 const App = () => {
     return (
@@ -23,7 +23,7 @@ const App = () => {
                         <Route path="/contact" element={<ContactPage />} />
                         <Route
                             path="/projects/:slug"
-                            element={<ProjectDetail />}
+                            element={<ProjectDetails />}
                         />
                     </Route>
                 </Routes>

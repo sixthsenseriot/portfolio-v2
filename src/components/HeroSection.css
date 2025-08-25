@@ -2,8 +2,8 @@
 
 /* Layout */
 .HeroSection.intro-container {
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 3.8rem;
+    padding-bottom: 8rem;
 }
 
 .HeroSection .intro-content {
@@ -13,12 +13,12 @@
 /* Type */
 .HeroSection h1 {
     font-family: var(--grotesk-font);
-    font-size: 50px;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 
 .HeroSection .intro-description {
-    font-size: 25px;
+    font-size: 1.8rem;
 }
 
 /* Social links */

@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function TopNavbar() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
             <Container fluid>
                 <Navbar.Brand href="/">starchdev</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />

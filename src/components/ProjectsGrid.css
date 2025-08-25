@@ -1,7 +1,7 @@
 @import "../index.css";
 
 /* Padding used by your .content-container group */
-.ProjectsGrid.content-container {
+.content-container {
     padding-top: 38px;
 }
 
