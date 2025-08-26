@@ -15,17 +15,21 @@ const ContactPage = () => {
                         <div className="card-body">
                             <h2 className="card-title">Khanh Nguyen</h2>
                             <h5 className="card-subtitle mb-2">
-                                Developer & Current Student at UH
+                                (Corn)puter Scientist & Developer
                             </h5>
                             <p className="card-text mb-0">Houston, Texas</p>
 
                             <div className="contact-container d-flex">
                                 <div className="contact-icons text-center">
                                     <p>
-                                        <i className="contact-logo fa-solid fa-envelope me-2"></i>
+                                        {/* <i className="contact-logo fa-solid fa-laptop me-2"></i> */}
+                                        <img
+                                            className="contact-logo corn-icon me-2"
+                                            src="/icons/corn-icon.svg"
+                                        />
                                     </p>
                                     <p>
-                                        <i className="contact-logo fa-solid fa-laptop me-2"></i>
+                                        <i className="contact-logo fa-solid fa-envelope me-2"></i>
                                     </p>
                                     <p>
                                         <i className="contact-logo fa-brands fa-linkedin me-2"></i>
@@ -38,15 +42,6 @@ const ContactPage = () => {
                                 <div className="contact-links">
                                     <p>
                                         <a
-                                            href="mailto:khanh@starchdev.com"
-                                            title="Email link"
-                                            className="contact"
-                                        >
-                                            khanh@starchdev.com
-                                        </a>
-                                    </p>
-                                    <p>
-                                        <a
                                             href="https://starchdev.com"
                                             target="_blank"
                                             rel="noreferrer"
@@ -54,6 +49,15 @@ const ContactPage = () => {
                                             className="contact"
                                         >
                                             starchdev.com
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a
+                                            href="mailto:khanh@starchdev.com"
+                                            title="Email link"
+                                            className="contact"
+                                        >
+                                            khanh@starchdev.com
                                         </a>
                                     </p>
                                     <p>

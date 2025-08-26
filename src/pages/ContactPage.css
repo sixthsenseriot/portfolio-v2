@@ -29,6 +29,9 @@
     color: var(--light-blue);
     text-decoration: underline;
 }
+.ContactPage .corn-icon {
+    fill: var(--primary-black);
+}
 
 /* Card spacing override */
 .ContactPage .card {
